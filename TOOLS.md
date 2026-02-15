@@ -38,3 +38,13 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## Current Infra Notes
+
+### AWS EC2 (fomox-evm backend)
+- prod-api: `54.179.70.89`
+- staging-api: `13.212.215.250`
+- Deploy mode: Docker Compose + Nginx reverse proxy (blue/green dual API instances)
+- Env files (on EC2):
+  - `/home/ubuntu/fomox-evm-api/.env.staging`
+  - `/home/ubuntu/fomox-evm-api/.env.prod`
