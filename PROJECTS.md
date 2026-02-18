@@ -25,9 +25,17 @@
 
 ### reapp.top
 - **路径：** `/home/ubuntu/github/reapp/reapp.top`
-- **类型：** 纯前端网页应用
-- **状态：** 开发中，未上线
-- **优先级：** 中
+- **类型：** 纯前端网页应用（Next.js）
+- **状态：** 开发中，目标先上线“仅图片压缩工具”MVP
+- **优先级：** 高
+- **当前已完成：** UI 优化、图片压缩能力（Squoosh 引擎优化）、SEO 基础方案（`docs/SEO_GUIDE.md`）
+- **当前阶段目标（MVP 上线前）：**
+  1. Landing 保留压缩工具可用，其他工具入口显示 `Coming Soon`
+  2. 全站品牌从 OneImage 彻底 Rebrand 为 `ReImage`
+  3. 导航移除 Blogs，补齐 About / Contact / Privacy / Terms 页面
+  4. 压缩工具页补齐营销文案（工具区之外），基于 oneimage 对标并优化
+  5. 规划并接入 9 语言 i18n 框架（首版可先保留英文文案）
+- **下一步（执行中）：** 输出分阶段实施计划并按子代理并行推进
 
 ### mini-tarot
 - **路径：** `/home/ubuntu/github/reapp/mini-tarot`

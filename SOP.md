@@ -20,8 +20,10 @@
 
 ## 3) 仓库工作流
 - 代码与文档统一纳入 Git 管理。
-- 每次完成一批可交付改动：`git add -A && git commit`。
-- 默认推送到：`git@github.com:RomeroYang/server-claw-workspace.git`。
+- 每次完成一批可交付改动后，必须执行：`git add -A && git commit`。
+- 若仓库有远端且你未明确要求只本地保存，默认继续执行：`git push origin main`。
+- 交付时必须回报：`分支名 + 最新 commit hash + 是否已 push`。
+- 若 push 失败（权限/冲突/保护分支），必须立即告警并给出下一步处置方案。
 
 ## 4) 文档更新规则
 - 项目状态只在 `PROJECTS.md` 维护（单一事实源）。
